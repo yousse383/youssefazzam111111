@@ -1,0 +1,17 @@
+.gpa-box{
+    width:220px;
+    margin:20px 25px 25px auto;
+    padding:14px 20px;
+    border:1px solid #e5e5e5;
+    background:#fafafa;
+    border-radius:6px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:#333;
+    font-size:18px;
+}
+
+.gpa-box strong{
+    font-size:22px;
+}

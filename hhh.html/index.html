@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>النتائج الدراسية</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Tahoma, Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    padding:40px;
+}
+
+.container{
+    width:95%;
+    margin:auto;
+    background:#fff;
+    border:1px solid #ddd;
+}
+
+.top-bar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 25px;
+    border-bottom:1px solid #eee;
+    color:#333;
+    font-size:15px;
+}
+
+.semester{
+    background:#f8f9fb;
+    padding:15px 25px;
+    border-bottom:1px solid #eee;
+    font-weight:bold;
+    color:#333;
+    text-align:right;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    text-align:center;
+}
+
+thead{
+    background:#fafafa;
+}
+
+thead th{
+    padding:18px;
+    font-size:14px;
+    color:#555;
+    border-bottom:1px solid #eee;
+}
+
+tbody td{
+    padding:22px;
+    color:#444;
+    border-bottom:1px solid #f0f0f0;
+    font-size:14px;
+}
+
+tbody tr:hover{
+    background:#fafafa;
+}
+
+.grade-good{
+    color:#222;
+    font-weight:bold;
+}
+
+.grade-plus{
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="top-bar">
+        <div>
+            النتائج الدراسية
+        </div>
+
+        <div>
+            الاسم: يوسف سالم حسن &nbsp;&nbsp;&nbsp;
+            ID: 20251223
+        </div>
+    </div>
+
+    <div class="semester">
+        2025-2026 الترم الثاني
+    </div>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>الكود</th>
+                <th>المقرر</th>
+                <th>الساعات المعتمدة</th>
+                <th>الدرجة</th>
+                <th>التقدير</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>تقن 1</td>
+                <td>الكترونكس - 1</td>
+                <td>3.0</td>
+                <td>55</td>
+                <td class="grade-good">م</td>
+            </tr>
+
+            <tr>
+                <td>تقن 223</td>
+                <td>تكنولوجيا الانترنت</td>
+                <td>3.0</td>
+                <td>43</td>
+                <td>ر</td>
+            </tr>
+
+            <tr>
+                <td>حسب 112</td>
+                <td>برمجة الحاسبات - 1</td>
+                <td>3.0</td>
+                <td>49</td>
+                <td>ر</td>
+            </tr>
+
+            <tr>
+                <td>نال 240</td>
+                <td>بحوث العمليات</td>
+                <td>3.0</td>
+                <td>65</td>
+                <td class="grade-plus">ج</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+</table>
+
+<div class="gpa-box">
+    <span>GPA</span>
+    <strong>1.8</strong>
+</div>
+
+</div>
+
+</body>
+</html>
